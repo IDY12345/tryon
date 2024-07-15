@@ -1,10 +1,7 @@
 import streamlit as st
-import cv2
 import numpy as np
 from PIL import Image
-import insightface
-from insightface.app import FaceAnalysis
-from insightface.app import ins_get_image
+
 
 def load_image(image_path):
     return Image.open(image_path)
