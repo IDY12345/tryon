@@ -1,5 +1,5 @@
 opencv-python-headless;
 numpy;
-insightface;
+insightface==0.7.3;
 Pillow;
 streamlit;
